@@ -1,7 +1,12 @@
 import "./footer.scss";
 
-export const Footer = () => {
-  return <div className="footer">Footer</div>;
+const Footer = () => {
+  return (
+    <div className="footer">
+      <span>kdadmin</span>
+      <span>KD Dev Admin Dashboard</span>
+    </div>
+  );
 };
 
 export default Footer;
